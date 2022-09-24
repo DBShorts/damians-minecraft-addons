@@ -38,6 +38,7 @@
             }
         </style>
     </head>
+    <body onload="mobilecheck()">
     <body>
         <a href="index.html"><img src="house.png" style="width:75px; height:75px;"></a>
         <h1>Damian's Minecraft Addons</h1>
@@ -51,6 +52,8 @@
     </body>
 </html>
 <script>  
+    function mobilecheck() {
     if (typeof screen.orientation == 'portrait-primary') { if confirm("Hello! It appears that this device should be using the mobile version of the site. Would you like to use the mobile version?") == true { window.location.href = "https://dbshorts.github.io/damians-minecraft-addons/mobile.html" }  }
     if (typeof screen.orientation == 'portrait-secondary') { if confirm("Hello! It appears that this device should be using the mobile version of the site. Would you like to use the mobile version?") == true { window.location.href = "https://dbshorts.github.io/damians-minecraft-addons/mobile.html" }  }
+    }
 </script>
