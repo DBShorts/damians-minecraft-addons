@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Peaberry';
+    src: url('fonts/PeaberryBase.eot');
+    src: url('fonts/PeaberryBase.eot?#iefix') format('embedded-opentype'),
+        url('fonts/PeaberryBase.woff2') format('woff2'),
+        url('fonts/PeaberryBase.woff') format('woff'),
+        url('fonts/PeaberryBase.ttf') format('truetype'),
+        url('fonts/PeaberryBase.svg#PeaberryBase') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
